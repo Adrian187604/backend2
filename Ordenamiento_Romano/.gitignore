@@ -1,0 +1,72 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Directorios de dependencias
+node_modules/
+__pycache__/
+venv/
+ENV/
+env/
+.venv/
+pip-wheel-metadata/
+
+# Archivos de compilación y dist
+dist/
+build/
+out/
+*.egg-info/
+
+# Archivos de Python
+*.py[cod]
+*.pyo
+*.pyd
+*.whl
+*.egg
+*.manifest
+*.spec
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de Cython
+*.so
+
+# Archivos de configuración de IDEs y editores
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos de backup y temporales
+*.bak
+*.tmp
+*.swp
+
+# Archivos generados por compiladores
+*.o
+*.out
+*.a
+*.lib
+*.dll
+*.dylib
+*.exe
+*.class
+
+# Archivos específicos de macOS
+.AppleDouble
+.LSOverride
+
+# Archivos específicos de Windows
+*.lnk
